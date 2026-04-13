@@ -61,7 +61,7 @@ export default function Member2_Infographic() {
               <div>
                 <h4>Mục tiêu Quan hệ Xã hội</h4>
                 <p>
-                  Đảm bảo công bằng, văn minh, dân chủ. Đẩy lùi bất công bóc
+                  Đảm bảo công bằng, dân chủ, văn minh. Đẩy lùi bất công bóc
                   lột, xóa bỏ khoảng cách phân hóa giàu nghèo cực đoan.
                 </p>
               </div>
