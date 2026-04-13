@@ -170,8 +170,9 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('https://special.nhandan.vn/tu-tuong-ho-chi-minh-ve-chu-nghia-xa-hoi-va-con-duong-di-len-chu-nghia-xa-hoi-o-viet-nam/assets/atwAyAhndu/dsc_8392-2400x3301-2400x3301.jpg') center/cover no-repeat;
-  opacity: 0.12;
+  background: url('https://i.ytimg.com/vi/oZdSaBp_Y6g/maxresdefault.jpg') center/cover no-repeat;
+  opacity: 0.45;
+  mix-blend-mode: hard-light;
   z-index: 1;
 }
 
