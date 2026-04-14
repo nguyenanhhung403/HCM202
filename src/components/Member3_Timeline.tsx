@@ -1,7 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useContext } from "react";
 import { Star } from "lucide-react";
+import { LightboxContext } from "./Lightbox";
 
 export default function Member3_Timeline() {
+  const { openLightbox } = useContext(LightboxContext);
   const containerRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
 
@@ -102,6 +104,12 @@ export default function Member3_Timeline() {
                   Đập tan mọi âm mưu chia rẽ, chống phá của thế lực thù địch.
                 </li>
               </ul>
+              <img 
+                src="/D25DE8BF_C40E_4134_849E_C8038B5-1621300731919.jpeg" 
+                alt="Chính trị" 
+                className="content-image" 
+                onClick={() => openLightbox("/D25DE8BF_C40E_4134_849E_C8038B5-1621300731919.jpeg")}
+              />
             </div>
           </div>
 
@@ -126,6 +134,12 @@ export default function Member3_Timeline() {
                   nghiệp và công nghiệp nhẹ.
                 </li>
               </ul>
+              <img 
+                src="/Tintuc_cgs_vn_2016911h23m31s.jpg" 
+                alt="Kinh tế" 
+                className="content-image" 
+                onClick={() => openLightbox("/Tintuc_cgs_vn_2016911h23m31s.jpg")}
+              />
             </div>
           </div>
 

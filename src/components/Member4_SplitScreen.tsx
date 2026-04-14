@@ -1,4 +1,9 @@
+import { useContext } from 'react';
+import { LightboxContext } from './Lightbox';
+
 export default function Member4_SplitScreen() {
+  const { openLightbox } = useContext(LightboxContext);
+
   return (
     <section className="section">
       <div className="container">
@@ -85,6 +90,13 @@ export default function Member4_SplitScreen() {
                   </p>
                 </div>
               </div>
+              <img 
+                src="/hoc_chi_minh.webp" 
+                alt="Xây dựng" 
+                className="content-image" 
+                style={{ marginTop: '1rem', maxWidth: '80%', alignSelf: 'center', cursor: 'pointer' }}
+                onClick={() => openLightbox("/hoc_chi_minh.webp")}
+              />
             </div>
           </div>
 
@@ -151,6 +163,13 @@ export default function Member4_SplitScreen() {
                   </p>
                 </div>
               </div>
+              <img 
+                src="/images.jpg" 
+                alt="Chống tiêu cực" 
+                className="content-image" 
+                style={{ marginTop: '1rem', maxWidth: '80%', alignSelf: 'center', cursor: 'pointer' }}
+                onClick={() => openLightbox("/images.jpg")}
+              />
             </div>
           </div>
         </div>
