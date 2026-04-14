@@ -9,6 +9,7 @@ import Member1_Bento from './components/Member1_Bento';
 import Member2_Infographic from './components/Member2_Infographic';
 import Member3_Timeline from './components/Member3_Timeline';
 import Member4_SplitScreen from './components/Member4_SplitScreen';
+import Quiz from './components/Quiz';
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -101,6 +102,9 @@ function App() {
         <div id="nguyen-tac">
           <Member4_SplitScreen />
         </div>
+
+        {/* Trắc nghiệm */}
+        <Quiz />
       </main>
 
       <footer className="site-footer">
